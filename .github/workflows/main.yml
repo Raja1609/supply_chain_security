@@ -8,8 +8,7 @@ on:
     branches:
       - master
   workflow_dispatch:
-  
-
+    
 jobs:
   generate-sbom:
     runs-on: ubuntu-latest
